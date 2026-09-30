@@ -75,7 +75,7 @@ class Settings {
 	 */
 	public static function template_variables(): array {
 		return array(
-			'outline' => array( 'keyword', 'language', 'tone', 'word_count', 'serp_titles', 'paa_questions' ),
+			'outline' => array( 'keyword', 'language', 'tone', 'word_count', 'serp_titles', 'paa_questions', 'template_directive', 'hook_directive' ),
 			'section' => array( 'keyword', 'language', 'tone', 'title', 'heading', 'outline_summary', 'prev_summary', 'section_words' ),
 			'meta'    => array( 'keyword', 'language', 'tone', 'title', 'full_text_excerpt' ),
 		);

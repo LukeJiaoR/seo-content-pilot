@@ -2,13 +2,18 @@
 /**
  * Default outline prompt template (user message). Overridable via settings.
  *
- * Allowed variables: {keyword} {language} {tone} {word_count} {serp_titles} {paa_questions}
+ * Allowed variables: {keyword} {language} {tone} {word_count} {serp_titles}
+ *                    {paa_questions} {template_directive} {hook_directive}
  *
  * @package SCP
  */
 
 return <<<'PROMPT'
 Create a detailed SEO article outline for the keyword: "{keyword}".
+
+{template_directive}
+
+{hook_directive}
 
 Requirements:
 - Language: {language}. Tone: {tone}.
@@ -22,8 +27,9 @@ Requirements:
   ],
   "faq": ["question one?", "question two?"]
 }
-- 5 to 8 top-level sections. Use question-style H2 headings where they fit naturally.
-- The first section must be an introduction that directly answers the core query in 2-3 sentences before expanding.
+- 5 to 8 top-level sections. Follow the recommended section roles above for ordering.
+- Use question-style H2 headings where they fit naturally, but vary: not every heading needs a question mark.
+- The first section should follow the opening-hook style above and answer the core query in 2-3 sentences before expanding.
 - Include a practical/how-to section and a comparison or data-driven section where relevant.
 - The "faq" array must contain 3 to 5 real questions people ask about this topic.
 - Reference these competing page titles for structure inspiration (do not copy): {serp_titles}
