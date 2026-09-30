@@ -6,7 +6,8 @@
 	"scripts": {
 		"build": "wp-scripts build",
 		"start": "wp-scripts start",
-		"lint:js": "wp-scripts lint-js"
+		"lint:js": "wp-scripts lint-js",
+		"build:i18n": "node scripts/build-translations.js"
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^30.0.0"

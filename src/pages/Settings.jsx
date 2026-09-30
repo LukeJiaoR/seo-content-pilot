@@ -32,9 +32,9 @@ const TONE_OPTIONS = [
 ];
 
 const LANGUAGE_OPTIONS = [
-	{ value: 'en-US', label: 'English (US)' },
-	{ value: 'en-GB', label: 'English (UK)' },
-	{ value: 'en-AU', label: 'English (AU)' },
+	{ value: 'en-US', label: __( 'English (US)', 'seo-content-pilot' ) },
+	{ value: 'en-GB', label: __( 'English (UK)', 'seo-content-pilot' ) },
+	{ value: 'en-AU', label: __( 'English (AU)', 'seo-content-pilot' ) },
 ];
 
 const Settings = () => {
@@ -206,9 +206,9 @@ const Settings = () => {
 					label={ __( 'Provider', 'seo-content-pilot' ) }
 					value={ settings.llm.provider }
 					options={ [
-						{ value: 'openai', label: 'OpenAI' },
-						{ value: 'claude', label: 'Claude (S2+)', disabled: true },
-						{ value: 'gemini', label: 'Gemini (S2+)', disabled: true },
+						{ value: 'openai', label: __( 'OpenAI', 'seo-content-pilot' ) },
+						{ value: 'claude', label: __( 'Claude (S2+)', 'seo-content-pilot' ), disabled: true },
+						{ value: 'gemini', label: __( 'Gemini (S2+)', 'seo-content-pilot' ), disabled: true },
 					] }
 					onChange={ ( v ) => update( 'llm', 'provider', v ) }
 				/>

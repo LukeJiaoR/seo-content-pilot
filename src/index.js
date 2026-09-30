@@ -1,5 +1,5 @@
 import { createRoot, useState, useEffect } from '@wordpress/element';
-import { __ } from '@wordpress/i18n';
+import { __, setLocaleData, getLocale } from '@wordpress/i18n';
 import Dashboard from './pages/Dashboard';
 import Geo from './pages/Geo';
 import Generate from './pages/Generate';
@@ -9,18 +9,18 @@ import Opportunities from './pages/Opportunities';
 import Settings from './pages/Settings';
 import './style.scss';
 
-const ROUTES = {
-	'#/dashboard': __( 'Dashboard', 'seo-content-pilot' ),
-	'#/geo': __( 'GEO', 'seo-content-pilot' ),
-	'#/generate': __( 'Generate', 'seo-content-pilot' ),
-	'#/keywords': __( 'Keywords', 'seo-content-pilot' ),
-	'#/queue': __( 'Queue', 'seo-content-pilot' ),
-	'#/opportunities': __( 'Opportunities', 'seo-content-pilot' ),
-	'#/settings': __( 'Settings', 'seo-content-pilot' ),
-};
+const ROUTE_KEYS = [
+	{ hash: '#/dashboard', key: 'Dashboard' },
+	{ hash: '#/geo', key: 'GEO' },
+	{ hash: '#/generate', key: 'Generate' },
+	{ hash: '#/keywords', key: 'Keywords' },
+	{ hash: '#/queue', key: 'Queue' },
+	{ hash: '#/opportunities', key: 'Opportunities' },
+	{ hash: '#/settings', key: 'Settings' },
+];
 
 const getRoute = () =>
-	Object.keys( ROUTES ).includes( window.location.hash )
+	ROUTE_KEYS.some( ( r ) => r.hash === window.location.hash )
 		? window.location.hash
 		: '#/dashboard';
 
@@ -38,13 +38,13 @@ const App = () => {
 			<div className="scp-header">
 				<h1>SEO Content Pilot</h1>
 				<nav className="scp-nav">
-					{ Object.entries( ROUTES ).map( ( [ hash, label ] ) => (
+					{ ROUTE_KEYS.map( ( { hash, key } ) => (
 						<a
 							key={ hash }
 							href={ hash }
 							className={ route === hash ? 'is-active' : '' }
 						>
-							{ label }
+							{ __( key, 'seo-content-pilot' ) }
 						</a>
 					) ) }
 				</nav>
@@ -62,5 +62,22 @@ const App = () => {
 
 const container = document.getElementById( 'scp-root' );
 if ( container ) {
-	createRoot( container ).render( <App /> );
+	// Resolve the active WP locale (e.g. "zh_CN") and load the matching
+	// JED data built by scripts/build-translations.js. Falls back silently
+	// to the source strings when no locale file is bundled.
+	const locale = getLocale();
+	const normalized = ( locale || 'en' ).replace( /_/g, '-' );
+
+	import( /* webpackChunkName: "scp-i18n-[request]" */ `./languages/${ normalized }.js` )
+		.then( ( mod ) => {
+			if ( mod && mod.default ) {
+				setLocaleData( mod.default, 'seo-content-pilot' );
+			}
+		} )
+		.catch( () => {
+			// No translation for this locale — keep source strings.
+		} )
+		.finally( () => {
+			createRoot( container ).render( <App /> );
+		} );
 }

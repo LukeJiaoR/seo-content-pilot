@@ -60,6 +60,12 @@ final class Plugin {
 	 * @return void
 	 */
 	public function init(): void {
+		load_plugin_textdomain(
+			'seo-content-pilot',
+			false,
+			dirname( plugin_basename( SCP_PLUGIN_FILE ) ) . '/languages'
+		);
+
 		$admin_page = new Admin\Admin_Page();
 		$assets     = new Admin\Assets();
 

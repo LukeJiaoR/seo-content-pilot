@@ -1,0 +1,774 @@
+# Chinese (Simplified) translations for SEO Content Pilot.
+# Copyright (C) 2026 SEO Content Pilot
+# This file is distributed under the GPL-2.0-or-later.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SEO Content Pilot 0.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/LukeJiaoR/seo-content-pilot/issues\n"
+"POT-Creation-Date: 2026-09-30 00:00+0800\n"
+"PO-Revision-Date: 2026-09-30 00:00+0800\n"
+"Last-Translator: SEO Content Pilot\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: manual\n"
+
+msgid " page."
+msgstr "页。"
+
+msgid "(Current user)"
+msgstr "（当前用户）"
+
+msgid "(None)"
+msgstr "（无）"
+
+msgid "(Select a property)"
+msgstr "（选择站点资源）"
+
+msgid "AI Overview checks report when these domains get cited instead of you."
+msgstr "AI Overview 检测会报告这些域名替代你被引用的情况。"
+
+msgid "AI visibility by engine (last 28 days)"
+msgstr "各 AI 引擎可见度（近 28 天）"
+
+msgid "AI-generated articles"
+msgstr "AI 生成文章"
+
+msgid "Access denied."
+msgstr "无权访问。"
+
+msgid "Add & expand"
+msgstr "添加并拓词"
+
+msgid "Add at least one AI engine API key (OpenAI / Gemini / Perplexity) in"
+msgstr "请先在以下位置添加至少一个 AI 引擎的 API Key（OpenAI / Gemini / Perplexity）："
+
+msgid "Add to pool"
+msgstr "加入词池"
+
+msgid "Admin assets are not built yet. Run inside the plugin directory:"
+msgstr "后台资源尚未构建，请在插件目录下运行："
+
+msgid "All"
+msgstr "全部"
+
+msgid "All engines"
+msgstr "全部引擎"
+
+msgid "Almost page 1 — a dedicated article or content refresh can push these over."
+msgstr "距离首页一步之遥——一篇针对性的文章或内容更新就能把它们推上去。"
+
+msgid "Append author box (E-E-A-T)"
+msgstr "文末附加作者框（E-E-A-T）"
+
+msgid "Article"
+msgstr "文章"
+
+msgid "Article length"
+msgstr "文章长度"
+
+msgid "Author"
+msgstr "作者"
+
+msgid "Avg. list position"
+msgstr "平均列表排位"
+
+msgid "Avg. position"
+msgstr "平均排名"
+
+msgid "Benchmark CTR"
+msgstr "基准 CTR"
+
+msgid "Brand & competitors (GEO)"
+msgstr "品牌与竞品（GEO）"
+
+msgid "Brand impressions are a lagging indicator of AI citations (people search your brand after seeing it in AI answers)."
+msgstr "品牌词曝光是 AI 引用的滞后指标（用户在 AI 答案中看到品牌后会来搜索）。"
+
+msgid "Brand name"
+msgstr "品牌名"
+
+msgid "Brand search trend"
+msgstr "品牌词搜索趋势"
+
+msgid "Casual"
+msgstr "轻松随意"
+
+msgid "ChatGPT"
+msgstr "ChatGPT"
+
+msgid "OpenAI"
+msgstr "OpenAI"
+
+msgid "Claude (S2+)"
+msgstr "Claude（S2+）"
+
+msgid "Gemini (S2+)"
+msgstr "Gemini（S2+）"
+
+msgid "English (US)"
+msgstr "英语（美国）"
+
+msgid "English (UK)"
+msgstr "英语（英国）"
+
+msgid "English (AU)"
+msgstr "英语（澳大利亚）"
+
+msgid "Checked"
+msgstr "检测时间"
+
+msgid "Checks"
+msgstr "检测次数"
+
+msgid "Citation rate"
+msgstr "引用率"
+
+msgid "Cited"
+msgstr "被引用"
+
+msgid "Cited page"
+msgstr "被引用页面"
+
+msgid "Clicks"
+msgstr "点击"
+
+msgid "Cluster"
+msgstr "聚类"
+
+msgid "Competitor domains (one per line)"
+msgstr "竞品域名（每行一个）"
+
+msgid "Competitors"
+msgstr "竞品"
+
+msgid "Connect Google"
+msgstr "连接 Google"
+
+msgid "Connect Google Search Console"
+msgstr "连接 Google Search Console"
+
+msgid "Connected"
+msgstr "已连接"
+
+msgid "Content Preferences"
+msgstr "内容偏好"
+
+msgid "Dashboard"
+msgstr "数据看板"
+
+msgid "Default category"
+msgstr "默认分类"
+
+msgid "Defaults to this site’s domain. Used for AI Overview citation matching."
+msgstr "默认使用本站域名，用于 AI Overview 引用匹配。"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Deselect all"
+msgstr "取消全选"
+
+msgid "Disconnect"
+msgstr "断开连接"
+
+msgid "Done"
+msgstr "已完成"
+
+msgid "Draft created"
+msgstr "草稿已生成"
+
+msgid "Each tracked keyword costs one call per engine per week."
+msgstr "每个追踪词每周消耗每引擎 1 次调用。"
+
+msgid "Easiest path: install the Site Kit by Google plugin and connect Search Console there — we reuse its token. Alternative: create your own Google Cloud OAuth client below."
+msgstr "最省事的方案：安装 Site Kit by Google 插件并在其中连接 Search Console——本插件会直接复用它的授权令牌。备选方案：在下方配置你自己的 Google Cloud OAuth 客户端。"
+
+msgid "Engine"
+msgstr "引擎"
+
+msgid "Enqueue selected"
+msgstr "将选中词加入队列"
+
+msgid "Enriched"
+msgstr "已富化"
+
+msgid "Failed"
+msgstr "失败"
+
+msgid "Failed to load settings."
+msgstr "设置加载失败。"
+
+msgid "Featured images"
+msgstr "特色图"
+
+msgid "Fetch metrics & score"
+msgstr "拉取指标并打分"
+
+msgid "GEO"
+msgstr "GEO"
+
+msgid "GEO tracking & content rules"
+msgstr "GEO 追踪与内容规则"
+
+msgid "Gemini API Key (GEO engine)"
+msgstr "Gemini API Key（GEO 引擎）"
+
+msgid "Generate"
+msgstr "生成"
+
+msgid "Generate a featured image for each article"
+msgstr "为每篇文章生成特色图"
+
+msgid "Generate a single article"
+msgstr "生成单篇文章"
+
+msgid "Generate article"
+msgstr "生成文章"
+
+msgid "Generate draft"
+msgstr "生成草稿"
+
+msgid "Generating outline, sections and meta… this usually takes 1–3 minutes."
+msgstr "正在生成大纲、正文和 Meta……通常需要 1–3 分钟。"
+
+msgid "Generation failed."
+msgstr "生成失败。"
+
+msgid "Generation jobs"
+msgstr "生成任务"
+
+msgid "Google AI Overview citations"
+msgstr "Google AI Overview 引用"
+
+msgid "Google Search Console"
+msgstr "Google Search Console"
+
+msgid "High impressions, low CTR (position ≤ 10)"
+msgstr "高曝光低 CTR（排名 ≤ 10）"
+
+msgid "If AI image generation fails, a stock photo is pulled from Pexels. If neither works, the article is published without an image."
+msgstr "AI 配图失败时自动降级从 Pexels 拉取图库照片；两者都失败则不配图发布。"
+
+msgid "Image model"
+msgstr "图片模型"
+
+msgid "Impressions"
+msgstr "曝光"
+
+msgid "Inject write-to-be-cited rules into article generation"
+msgstr "在文章生成中注入「面向被引用」规则"
+
+msgid "Intent"
+msgstr "意图"
+
+msgid "Invalid payload."
+msgstr "请求数据无效。"
+
+msgid "Job"
+msgstr "任务"
+
+msgid "Job is not in failed state."
+msgstr "该任务不处于失败状态。"
+
+msgid "Job not found."
+msgstr "任务不存在。"
+
+msgid "KD"
+msgstr "KD"
+
+msgid "Keep this low (2–3). Publishing many AI posts on one day looks unnatural."
+msgstr "建议保持低值（2–3 篇）。单日大量发布 AI 文章容易显得不自然。"
+
+msgid "Keys are stored encrypted (sodium) in wp_options and never sent back to the browser."
+msgstr "所有 Key 均以 sodium 加密存储于 wp_options，绝不会再回传到浏览器。"
+
+msgid "Keyword"
+msgstr "关键词"
+
+msgid "Keyword Data (DataForSEO)"
+msgstr "关键词数据（DataForSEO）"
+
+msgid "Keyword pool"
+msgstr "关键词池"
+
+msgid "Keywords"
+msgstr "关键词"
+
+msgid "LLM Provider"
+msgstr "LLM 提供商"
+
+msgid "LLM answers are non-deterministic — read these as weekly trends, never single-run verdicts."
+msgstr "LLM 的回答具有随机性——请以周为粒度看趋势，不要用单次结果下结论。"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "Last 28 days"
+msgstr "近 28 天"
+
+msgid "Last 3 months"
+msgstr "近 3 个月"
+
+msgid "Login (email)"
+msgstr "登录邮箱（Login）"
+
+msgid "Long (3000+ words)"
+msgstr "长文（3000+ 词）"
+
+msgid "Max 20 seeds per run."
+msgstr "每次最多 20 个种子词。"
+
+msgid "Max 200 keywords per metrics run."
+msgstr "每次指标拉取最多 200 个词。"
+
+msgid "Max posts per day"
+msgstr "每日最多发布篇数"
+
+msgid "Medium (1500–2500 words)"
+msgstr "中文（1500–2500 词）"
+
+msgid "Mention rate"
+msgstr "提及率"
+
+msgid "Mentioned"
+msgstr "被提及"
+
+msgid "Metrics run pulls search volume + KD (DataForSEO), computes embeddings, clusters similar keywords (cosine ≥ 0.82, same cluster = one article), classifies intent and scores: volume / max(KD,1) × 1.5 if already ranked in GSC."
+msgstr "指标拉取会回填搜索量 + KD（DataForSEO）、计算 embedding、按余弦相似度 ≥0.82 聚类（同簇只写一篇）、分类搜索意图，并按 volume / max(KD,1) 打分（GSC 已有排名的词 ×1.5）。"
+
+msgid "Model"
+msgstr "模型"
+
+msgid "No AIO checks yet. They run weekly for published keywords, or trigger one above."
+msgstr "还没有 AIO 检测数据。系统每周会对已发布关键词自动检测，也可以点上方按钮手动触发。"
+
+msgid "No checks yet. Track keywords below — the weekly task runs automatically, or use \"Run check now\"."
+msgstr "还没有检测数据。先在下方勾选追踪词——周任务会自动运行，也可以点「立即检测」。"
+
+msgid "No jobs yet. Enqueue keywords from the "
+msgstr "还没有生成任务。请先到"
+
+msgid "No keywords yet."
+msgstr "还没有关键词。"
+
+msgid "No opportunities yet — the miner needs GSC data. Connect GSC and let the daily sync (or 16-month backfill) populate the cache."
+msgstr "还没有机会词——挖掘依赖 GSC 数据。请连接 GSC，等待每日同步（或 16 个月历史回填）填充本地缓存。"
+
+msgid "No valid keywords provided."
+msgstr "未提供有效的关键词。"
+
+msgid "No valid seeds provided."
+msgstr "未提供有效的种子词。"
+
+msgid "Not enough data yet."
+msgstr "数据还不足。"
+
+msgid "Nothing yet."
+msgstr "暂无数据。"
+
+msgid "OAuth Client ID (optional, for own app)"
+msgstr "OAuth Client ID（可选，自建应用）"
+
+msgid "OAuth Client Secret"
+msgstr "OAuth Client Secret"
+
+msgid "OpenAI API Key"
+msgstr "OpenAI API Key"
+
+msgid "OpenAI API key is not configured. Add it in Settings first."
+msgstr "尚未配置 OpenAI API Key，请先到设置页填写。"
+
+msgid "Opportunities"
+msgstr "机会词"
+
+msgid "Password (API password)"
+msgstr "密码（API Password）"
+
+msgid "Pending"
+msgstr "排队中"
+
+msgid "Perplexity API Key (GEO engine, optional)"
+msgstr "Perplexity API Key（GEO 引擎，可选）"
+
+msgid "Pexels API Key (fallback, optional)"
+msgstr "Pexels API Key（降级备用，可选）"
+
+msgid "Pos."
+msgstr "排位"
+
+msgid "Position"
+msgstr "排名"
+
+msgid "Post"
+msgstr "文章"
+
+msgid "Posts go out at a random minute inside the window. WordPress cron publishes them — make sure WP-Cron runs (system cron recommended)."
+msgstr "文章会在时间窗口内的随机时刻发布。发布依赖 WordPress cron——请确保 WP-Cron 正常工作（建议配置系统 cron）。"
+
+msgid "Professional"
+msgstr "专业"
+
+msgid "Prompt template — commercial intent"
+msgstr "Prompt 模板——商业意图"
+
+msgid "Prompt template — informational intent"
+msgstr "Prompt 模板——信息意图"
+
+msgid "Property"
+msgstr "站点资源"
+
+msgid "Property saved. First-time selection schedules a 16-month history backfill."
+msgstr "站点资源已保存。首次选择会自动排队回填 16 个月历史数据。"
+
+msgid "Provide keywords as text or array."
+msgstr "请以文本或数组形式提供关键词。"
+
+msgid "Provide seeds as text or array."
+msgstr "请以文本或数组形式提供种子词。"
+
+msgid "Provider"
+msgstr "提供商"
+
+msgid "Publish articles first, then pick keywords here. Commercial-intent keywords work best."
+msgstr "先发布文章，再回来挑选追踪词。商业意图的词效果最佳。"
+
+msgid "Publish immediately"
+msgstr "立即发布"
+
+msgid "Publish mode"
+msgstr "发布模式"
+
+msgid "Publishing"
+msgstr "发布"
+
+msgid "Queries bringing clicks that you have no dedicated content for — best new-topic candidates."
+msgstr "带来点击、但站点没有对应主题文章的查询词——是最佳的新选题。"
+
+msgid "Query"
+msgstr "查询词"
+
+msgid "Question H2s with direct answer blocks, data tables, crisp definitions — optimized for AI citations."
+msgstr "疑问式 H2 + 首段直接回答的答案块、数据表格、清晰定义句——专为被 AI 引用而优化。"
+
+msgid "Queue"
+msgstr "生成队列"
+
+msgid "Ranking well but under-clicked vs. the position benchmark — rewrite the title/meta, or generate a sharper page."
+msgstr "排名不错但点击率低于排名基准——重写标题/Meta，或生成一个更切题的页面。"
+
+msgid "Recent checks"
+msgstr "最近检测"
+
+msgid "Redirect URI to whitelist in Google Cloud Console:"
+msgstr "需要在 Google Cloud Console 中配置的回调 URI："
+
+msgid "Refresh"
+msgstr "刷新"
+
+msgid "Retry"
+msgstr "重试"
+
+msgid "Review the draft →"
+msgstr "查看草稿 →"
+
+msgid "Run check now"
+msgstr "立即检测"
+
+msgid "Run check now (tracked)"
+msgstr "立即检测（全部追踪词）"
+
+msgid "Run check on selected"
+msgstr "检测选中词"
+
+msgid "Running"
+msgstr "运行中"
+
+msgid "SEO Content Pilot"
+msgstr "SEO Content Pilot"
+
+msgid "SEO Pilot"
+msgstr "SEO Pilot"
+
+msgid "Save as draft (recommended)"
+msgstr "保存为草稿（推荐）"
+
+msgid "Save failed."
+msgstr "保存失败。"
+
+msgid "Save first, then connect."
+msgstr "请先保存，再点连接。"
+
+msgid "Save settings"
+msgstr "保存设置"
+
+msgid "Scheduled (spread across days)"
+msgstr "定时排期（按天铺开）"
+
+msgid "Score"
+msgstr "评分"
+
+msgid "Seed keywords, one per line (max 20)"
+msgstr "种子词，每行一个（最多 20 个）"
+
+msgid "Seeds → expand"
+msgstr "种子词 → 拓词"
+
+msgid "Select all new"
+msgstr "全选 new 状态词"
+
+msgid "Sentiment"
+msgstr "情感倾向"
+
+msgid "Serve /llms.txt"
+msgstr "提供 /llms.txt"
+
+msgid "Set your Google OAuth Client ID + Secret first (or install Site Kit)."
+msgstr "请先配置 Google OAuth Client ID 和 Secret（或安装 Site Kit）。"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+msgid "Short (800–1200 words)"
+msgstr "短文（800–1200 词）"
+
+msgid "Shown when the configured author has a bio in their WP profile."
+msgstr "当配置的作者在 WP 个人资料中填写了简介时显示。"
+
+msgid "Site Kit is installed but has no authorized Google account yet — connect GSC inside Site Kit and this plugin will reuse its token (no OAuth app needed)."
+msgstr "检测到 Site Kit 已安装但尚未授权 Google 账号——请在 Site Kit 中连接 Search Console，本插件会直接复用它的令牌（无需自建 OAuth 应用）。"
+
+msgid "Site domain"
+msgstr "站点域名"
+
+msgid "Site intro + article index for AI crawlers. Permalinks must be enabled."
+msgstr "为 AI 爬虫提供站点简介 + 文章索引。需要启用固定链接。"
+
+msgid "Site performance"
+msgstr "站点表现"
+
+msgid "Source"
+msgstr "来源"
+
+msgid "Sources"
+msgstr "数据来源"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "Status filter"
+msgstr "状态筛选"
+
+msgid "Step"
+msgstr "步骤"
+
+msgid "Striking distance (position 11–30)"
+msgstr "冲线词（排名 11–30）"
+
+msgid "Sync now"
+msgstr "立即同步"
+
+msgid "Sync scheduled — data appears within a minute."
+msgstr "同步已排队——数据约 1 分钟内出现。"
+
+msgid "Target keyword"
+msgstr "目标关键词"
+
+msgid "Technical"
+msgstr "技术风格"
+
+msgid "The dashboard needs GSC data. Connect via Site Kit or your own Google OAuth app in"
+msgstr "看板需要 GSC 数据。请通过 Site Kit 或自建 Google OAuth 应用连接："
+
+msgid "Title"
+msgstr "标题"
+
+msgid "Tokens"
+msgstr "Tokens"
+
+msgid "Tokens used"
+msgstr "消耗 Tokens"
+
+msgid "Tone"
+msgstr "语气"
+
+msgid "Top page"
+msgstr "主要页面"
+
+msgid "Totals"
+msgstr "总计"
+
+msgid "Track selected"
+msgstr "追踪选中词"
+
+msgid "Tracked"
+msgstr "追踪中"
+
+msgid "Tracked keywords"
+msgstr "追踪关键词"
+
+msgid "Tracked keywords cap"
+msgstr "追踪词数量上限"
+
+msgid "Tracking cap is %d keywords. Untrack some first or raise the cap in Settings."
+msgstr "追踪上限为 %d 个词。请先取消部分追踪词，或在设置中调高上限。"
+
+msgid "Unexpected traffic"
+msgstr "意外流量词"
+
+msgid "Unknown template variables: %s"
+msgstr "未知的模板变量：%s"
+
+msgid "Untrack"
+msgstr "取消追踪"
+
+msgid "Use {keyword}. Same comparability warning."
+msgstr "使用 {keyword} 变量。改动同样会破坏周间趋势可比性。"
+
+msgid "Use {keyword}. WARNING: changing templates breaks week-over-week trend comparability."
+msgstr "使用 {keyword} 变量。警告：改动模板会破坏周间趋势的可比性。"
+
+msgid "Used for brand-search trend tracking and (S5) AI mention detection."
+msgstr "用于品牌词搜索趋势追踪和 AI 提及检测。"
+
+msgid "Used for keyword suggestions, search volume, keyword difficulty and SERP/AIO data. Pay-as-you-go at dataforseo.com. Keyword expansion works without it (Autocomplete + LLM only), but volume/KD/score need it."
+msgstr "用于关键词建议、搜索量、关键词难度和 SERP/AIO 数据，在 dataforseo.com 按量付费。不配置也能拓词（仅 Autocomplete + LLM），但搜索量/KD/评分需要它。"
+
+msgid "Volume"
+msgstr "搜索量"
+
+msgid "When"
+msgstr "时间"
+
+msgid "Window end"
+msgstr "窗口结束"
+
+msgid "Window start"
+msgstr "窗口开始"
+
+msgid "Words"
+msgstr "字数"
+
+msgid "added"
+msgstr "个已添加"
+
+msgid "checked"
+msgstr "个已检测"
+
+msgid "checks done"
+msgstr "次检测完成"
+
+msgid "cited"
+msgstr "次被引用"
+
+msgid "cited you"
+msgstr "个引用了你"
+
+msgid "clustered"
+msgstr "个已聚类"
+
+msgid "deleted"
+msgstr "个已删除"
+
+msgid "done"
+msgstr "完成"
+
+msgid "duplicates"
+msgstr "个重复已跳过"
+
+msgid "e.g. gpt-4o-mini, gpt-4o, gpt-4.1-mini"
+msgstr "如 gpt-4o-mini、gpt-4o、gpt-4.1-mini"
+
+msgid "e.g. gpt-image-1, dall-e-3 (uses the OpenAI key above)"
+msgstr "如 gpt-image-1、dall-e-3（使用上方 OpenAI Key）"
+
+msgid "failed"
+msgstr "失败"
+
+msgid "had an AI Overview"
+msgstr "个出现 AI Overview"
+
+msgid "ids is required."
+msgstr "缺少 ids 参数。"
+
+msgid "in pool"
+msgstr "已在词池"
+
+msgid "intents"
+msgstr "个已分类意图"
+
+msgid "jobs enqueued"
+msgstr "个任务已入队"
+
+msgid "keyword_ids is required."
+msgstr "缺少 keyword_ids 参数。"
+
+msgid "keywords checked"
+msgstr "个词已检测"
+
+msgid "keywords with an AI Overview"
+msgstr "个有 AI Overview 的词"
+
+msgid "last sync"
+msgstr "最近同步"
+
+msgid "mentioned"
+msgstr "次被提及"
+
+msgid "metrics"
+msgstr "个已回填指标"
+
+msgid "not configured"
+msgstr "未配置"
+
+msgid "own OAuth"
+msgstr "自有 OAuth"
+
+msgid "pending"
+msgstr "排队中"
+
+msgid "primary"
+msgstr "主词"
+
+msgid "queued for generation"
+msgstr "已加入生成队列"
+
+msgid "rows cached"
+msgstr "行缓存数据"
+
+msgid "running"
+msgstr "运行中"
+
+msgid "sample"
+msgstr "样本"
+
+msgid "scored"
+msgstr "个已打分"
+
+msgid "seed expansion tasks scheduled — results appear in the pool within a few minutes."
+msgstr "个种子拓词任务已排队——结果会在几分钟内进入词池。"
+
+msgid "selected"
+msgstr "个已选"
+
+msgid "skipped"
+msgstr "已跳过"
+
+msgid "via Site Kit"
+msgstr "通过 Site Kit"
+
+msgid "via own OAuth app"
+msgstr "通过自有 OAuth 应用"
+
+msgid "•••••••• (saved — enter a new key to replace)"
+msgstr "••••••••（已保存——输入新 Key 即可替换）"
+
+msgid "•••••••• (saved — enter to replace)"
+msgstr "••••••••（已保存——输入即可替换）"
