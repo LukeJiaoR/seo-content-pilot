@@ -1,0 +1,13 @@
+# Dependencies (installed via npm; build output in build/ IS committed for WP installs)
+node_modules/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Local env
+.env
+.env.*

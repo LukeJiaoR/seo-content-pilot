@@ -1,0 +1,20 @@
+{
+	"name": "seo-content-pilot",
+	"version": "0.1.0",
+	"private": true,
+	"description": "WordPress plugin: keyword expansion, AI article generation, scheduled publishing, GSC/GEO verification.",
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start",
+		"lint:js": "wp-scripts lint-js"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^30.0.0"
+	},
+	"dependencies": {
+		"@wordpress/api-fetch": "^7.0.0",
+		"@wordpress/components": "^30.0.0",
+		"@wordpress/element": "^6.0.0",
+		"@wordpress/i18n": "^6.0.0"
+	}
+}
